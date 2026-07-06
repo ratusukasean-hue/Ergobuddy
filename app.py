@@ -44,4 +44,4 @@ else:
             )
             st.markdown(response.text)
             
-        st.session_state.messages.append({"role": "assistant", "content": response.text})s
+        st.session_state.messages.append({"role": "assistant", "content": response.text})
